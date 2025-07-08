@@ -1,0 +1,32 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "files.exclude": {
+            "**/__pycache__": true,
+            "**/.pytest_cache": true,
+            "**/.mypy_cache": true,
+            "**/.coverage": true,
+            "**/.htmlcov": true
+        },
+        "python.languageServer": "None"
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "ms-python.black-formatter",
+            "esbenp.prettier-vscode",
+            "github.vscode-github-actions",
+            "gruntfuggly.todo-tree"
+        ]
+    }
+} 
