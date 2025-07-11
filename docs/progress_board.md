@@ -4,7 +4,7 @@ Update this table weekly to visualize your journey. Mark `Solved` count and comp
 
 | Week | Planned Problems | Solved | Completion | Notes |
 |------|------------------|--------|------------|-------|
-| 1 | 12 | 0 | 0% | |
+| 1 | 12 | 2 | 17% | Contains Duplicate ✓, Valid Anagram ✓ |
 | 2 | 12 | 0 | 0% | |
 | 3 | 12 | 0 | 0% | |
 | 4 | 12 | 0 | 0% | |
@@ -16,6 +16,6 @@ Update this table weekly to visualize your journey. Mark `Solved` count and comp
 | 10 | 12 | 0 | 0% | |
 | 11 | 12 | 0 | 0% | |
 | 12 | 12 | 0 | 0% | |
-| **Total** | **150** | **0** | **0%** | |
+| **Total** | **150** | **2** | **1.3%** | Started with Arrays & Hashing fundamentals |
 
 > Tip: You can automate percentage calculation if you track in a spreadsheet.
