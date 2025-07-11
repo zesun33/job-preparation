@@ -15,12 +15,15 @@ My current level:
 
 What I need from you:
 1. Intuitive overview – A plain-English analogy first (no code).
-2. Step-by-step explanation – Build from the simplest idea to the full algorithm.
-3. Visual or mental model – Describe how I can picture it (e.g., boxes, arrows).
-4. Real code – Show a clean Python implementation with inline comments.
-5. Complexity – Explain time & space in words before giving the Big-O symbols.
-6. Edge cases – List and clarify at least three tricky inputs and how the algorithm handles them.
-7. Variations & trade-offs – Briefly compare any alternative approaches and when to choose each.
+2. Step-by-step explanation – Build from the simplest idea to the full algorithm for the optimal solution.
+3. Visual or mental model – Describe how I can picture the optimal solution (e.g., boxes, arrows).
+4. Code (Optimal Solution) – Show a clean Python implementation with inline comments.
+5. Complexity (Optimal Solution) – Explain time & space in words before giving the Big-O symbols.
+6. Alternative Solutions & Trade-offs – Describe other common solutions (e.g., brute-force). For each:
+    a. Explain the approach.
+    b. Show the code and analyze its complexity (Time and Space).
+    c. Discuss the trade-offs (e.g., "simpler but slower").
+7. Edge cases – List and clarify at least three tricky inputs and how the algorithm handles them.
 8. Tiny quiz – Ask me 3–4 quick questions so I can test if I understood (but don’t reveal answers until I try).
 
 Teaching style:

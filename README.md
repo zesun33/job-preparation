@@ -1,3 +1,22 @@
+# Job Preparation for CS and ML Roles
+
+## Overview
+This repository tracks my end-to-end preparation for Computer Science (CS) and Machine Learning (ML) internships / new-grad roles at FAANG-level companies.  I’m an Electrical Engineering PhD student focused on ML hardware accelerators, so the goal is to build a solid software interviewing foundation while showcasing my hardware strengths.
+
+## Objectives
+- **Master NeetCode 150** (12-week schedule)
+- Learn data structures & algorithms from scratch
+- Sharpen coding-interview skills across platforms (NeetCode, LeetCode, HackerRank, CodeSignal, Codeforces)
+- Leverage Cursor IDE + AI assistance for guided learning
+
+## Tools and Languages
+- **Primary:** Python (readability, speed of iteration)
+- **Secondary:** C / C++ (performance-critical tasks)
+- **Environment:** Cursor IDE with integrated AI agents
+
+## Version Control
+Git is used for all source & documentation.  Follow conventional commit messages (`docs:`, `feat:`, `fix:`) and push frequently.
+
 ## Structure
 - **code/**: Weekly solution folders (`week01`–`week12`) generated from the 12-week plan. Place your `.py`, `.cpp`, etc. solutions here.
 - **resources/**: Reference materials such as `neetcode_150.md` (full problem list).
