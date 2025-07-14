@@ -9,12 +9,12 @@ This document tracks the official NeetCode 150 problems, grouped by category.  W
 
 ---
 
-## Arrays & Hashing (2 / 9)
+## Arrays & Hashing (3 / 9)
 | # | Problem | Difficulty | Status |
 |---|----------|-----------|---|
 | 1 | Contains Duplicate | 🟢 | ✅ Done |
 | 2 | Valid Anagram | 🟢 | ✅ Done |
-| 3 | Two Sum | 🟢 | |
+| 3 | Two Sum | 🟢 | ✅ Done |
 | 4 | Group Anagrams | 🟡 | |
 | 5 | Top K Frequent Elements | 🟡 | |
 | 6 | Product of Array Except Self | 🟡 | |

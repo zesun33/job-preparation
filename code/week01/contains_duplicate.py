@@ -59,6 +59,19 @@ def contains_duplicate_bruteforce(nums: List[int]) -> bool:
     return False
 
 
+# Alternative Solution: One-liner with Set
+# Time: O(n), Space: O(n)
+def contains_duplicate_oneliner(nums: List[int]) -> bool:
+    """
+    Checks for duplicates by comparing the length of the list to a set of it.
+
+    This is the most concise way to write the hash set solution in Python.
+    It's functionally identical to the optimal solution but less explicit,
+    as it builds the entire set first.
+    """
+    return len(nums) != len(set(nums))
+
+
 # --- Tests ---
 if __name__ == "__main__":
     # Test cases
@@ -88,5 +101,12 @@ if __name__ == "__main__":
     assert contains_duplicate_bruteforce(test3) is True
     assert contains_duplicate_bruteforce(test4) is False
     assert contains_duplicate_bruteforce(test5) is False
+
+    # One-liner solution
+    assert contains_duplicate_oneliner(test1) is True
+    assert contains_duplicate_oneliner(test2) is False
+    assert contains_duplicate_oneliner(test3) is True
+    assert contains_duplicate_oneliner(test4) is False
+    assert contains_duplicate_oneliner(test5) is False
 
     print("All tests passed!")

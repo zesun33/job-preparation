@@ -4,7 +4,7 @@ Update this table weekly to visualize your journey. Mark `Solved` count and comp
 
 | Week | Planned Problems | Solved | Completion | Notes |
 |------|------------------|--------|------------|-------|
-| 1 | 12 | 2 | 17% | Contains Duplicate ✓, Valid Anagram ✓ |
+| 1 | 12 | 3 | 25% | Contains Duplicate ✓, Valid Anagram ✓, Two Sum ✓ |
 | 2 | 12 | 0 | 0% | |
 | 3 | 12 | 0 | 0% | |
 | 4 | 12 | 0 | 0% | |

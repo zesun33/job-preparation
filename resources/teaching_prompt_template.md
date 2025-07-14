@@ -23,8 +23,9 @@ What I need from you:
     a. Explain the approach.
     b. Show the code and analyze its complexity (Time and Space).
     c. Discuss the trade-offs (e.g., "simpler but slower").
-7. Edge cases – List and clarify at least three tricky inputs and how the algorithm handles them.
-8. Tiny quiz – Ask me 3–4 quick questions so I can test if I understood (but don’t reveal answers until I try).
+7. Python Implementation Details – Explain which built-in Python features (e.g., classes, functions, modules) are used to implement the core data structure or algorithm. Mention any common alternative implementations available in Python's standard library.
+8. Edge cases – List and clarify at least three tricky inputs and how the algorithm handles them.
+9. Tiny quiz – Ask me 3–4 quick questions so I can test if I understood (but don’t reveal answers until I try).
 
 Teaching style:
     • Assume zero prior knowledge beyond loops and if-statements.

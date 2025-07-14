@@ -5,7 +5,7 @@ Use this as a guideline; adjust pacing as needed.
 
 | Week | Primary Categories & Problems | Count |
 |------|--------------------------------|-------|
-| 1 | **Arrays & Hashing (9)** ✅ Contains Duplicate • ✅ Valid Anagram • Two Sum • Group Anagrams • Top K Frequent • Product Except Self • Valid Sudoku • Longest Consecutive • Encode/Decode Strings  <br/>**Two Pointers (3)**: Valid Palindrome • Two Sum II • 3Sum | 12 |
+| 1 | **Arrays & Hashing (9)** ✅ Contains Duplicate • ✅ Valid Anagram • ✅ Two Sum • Group Anagrams • Top K Frequent • Product Except Self • Valid Sudoku • Longest Consecutive • Encode/Decode Strings  <br/>**Two Pointers (3)**: Valid Palindrome • Two Sum II • 3Sum | 12 |
 | 2 | **Two Pointers (2 remaining)**  <br/>Container With Most Water • Trapping Rain Water  <br/>**Sliding Window (6)**  <br/>**Stack (4)**: Valid Parentheses • Min Stack • Evaluate RPN • Generate Parentheses | 12 |
 | 3 | **Stack (3 remaining)**  <br/>Daily Temperatures • Car Fleet • Largest Rectangle  <br/>**Binary Search (7)**  <br/>**Linked List (2)**: Reverse List • Merge Two Lists | 12 |
 | 4 | **Linked List (9 remaining)**  <br/>Linked List Cycle • Reorder List • Remove Nth Node • Copy List w/ Random Pointer • Add Two Numbers • Find Duplicate • LRU Cache • Merge K Lists • Reverse Nodes K Group  <br/>**Trees (3)**: Invert Tree • Max Depth • Diameter | 12 |
