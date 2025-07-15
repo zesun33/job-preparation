@@ -16,6 +16,14 @@ Update this table weekly to visualize your journey. Mark `Solved` count and comp
 | 10 | 12 | 0 | 0% | |
 | 11 | 12 | 0 | 0% | |
 | 12 | 12 | 0 | 0% | |
-| **Total** | **150** | **2** | **1.3%** | Started with Arrays & Hashing fundamentals |
+| **Total** | **150** | **3** | **2.0%** | Started with Arrays & Hashing fundamentals |
 
 > Tip: You can automate percentage calculation if you track in a spreadsheet.
+
+---
+
+## Test Problems
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| [Subarray Sum Equals K](resources/notes/subarray_sum_equals_k.md) | Solved | Good practice for prefix sums and hash maps. |
