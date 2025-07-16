@@ -63,16 +63,92 @@ class Solution:
         return True
 
 
-# Example Usage:
-# s = "anagram"
-# t = "nagaram"
-# solver = Solution()
-# print(f"Sorting method: {solver.isAnagram_sorting(s, t)}")
-# print(f"Hash map method: {solver.isAnagram_hashMap(s, t)}")
-# print(f"Manual hash map method: {solver.isAnagram_hashMap_manual(s, t)}")
+def main():
+    """
+    Test function to verify all anagram implementations work correctly.
+    Tests various cases including edge cases.
+    """
+    solver = Solution()
 
-# s = "rat"
-# t = "car"
-# print(f"Sorting method: {solver.isAnagram_sorting(s, t)}")
-# print(f"Hash map method: {solver.isAnagram_hashMap(s, t)}")
-# print(f"Manual hash map method: {solver.isAnagram_hashMap_manual(s, t)}")
+    # Test cases: (s, t, expected_result, description)
+    test_cases = [
+        # Basic valid anagrams
+        ("anagram", "nagaram", True, "Basic anagram - rearranged letters"),
+        ("listen", "silent", True, "Classic anagram example"),
+        ("danger", "garden", True, "Another valid anagram"),
+        # Invalid anagrams
+        ("rat", "car", False, "Different letters"),
+        ("hello", "bello", False, "One different letter"),
+        ("aab", "abb", False, "Same letters, different frequencies"),
+        # Edge cases
+        ("", "", True, "Both empty strings"),
+        ("a", "", False, "Different lengths - one empty"),
+        ("abc", "ab", False, "Different lengths"),
+        ("a", "a", True, "Single character match"),
+        ("a", "b", False, "Single character mismatch"),
+        # Case sensitivity (assuming lowercase only)
+        ("abc", "bca", True, "Simple rearrangement"),
+        ("abcd", "dcba", True, "Reverse order"),
+        # Repeated characters
+        ("aabbcc", "abcabc", True, "Multiple repeated chars"),
+        ("aaab", "abaa", True, "Same chars, different order"),
+        ("aaab", "aabb", False, "Different char frequencies"),
+    ]
+
+    print("Testing Valid Anagram Solutions")
+    print("=" * 50)
+
+    # Test each method
+    methods = [
+        ("Sorting", solver.isAnagram_sorting),
+        ("Hash Map (Counter)", solver.isAnagram_hashMap),
+        ("Manual Hash Map", solver.isAnagram_hashMap_manual),
+    ]
+
+    all_passed = True
+
+    for method_name, method in methods:
+        print(f"\n{method_name} Method:")
+        print("-" * 30)
+        method_passed = True
+
+        for s, t, expected, description in test_cases:
+            result = method(s, t)
+            status = "✓ PASS" if result == expected else "✗ FAIL"
+
+            if result != expected:
+                method_passed = False
+                all_passed = False
+
+            print(f"{status} | '{s}' & '{t}' -> {result} | {description}")
+
+        print(
+            f"Method Result: {'All tests passed!' if method_passed else 'Some tests failed!'}"
+        )
+
+    print("\n" + "=" * 50)
+    print(
+        f"Overall Result: {'All methods passed all tests!' if all_passed else 'Some tests failed!'}"
+    )
+
+    # Performance comparison for larger strings
+    print("\n" + "=" * 50)
+    print("Performance Test (Large Strings):")
+    print("-" * 30)
+
+    import time
+
+    # Create large test strings
+    large_s = "abcdefghijklmnopqrstuvwxyz" * 1000  # 26,000 chars
+    large_t = "zyxwvutsrqponmlkjihgfedcba" * 1000  # Same chars, reversed
+
+    for method_name, method in methods:
+        start_time = time.time()
+        result = method(large_s, large_t)
+        end_time = time.time()
+
+        print(f"{method_name}: {result} (Time: {end_time - start_time:.4f}s)")
+
+
+if __name__ == "__main__":
+    main()

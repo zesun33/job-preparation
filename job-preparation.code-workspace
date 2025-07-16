@@ -28,8 +28,7 @@
             "ms-python.vscode-pylance",
             "ms-python.black-formatter",
             "esbenp.prettier-vscode",
-            "github.vscode-github-actions",
-            "gruntfuggly.todo-tree"
+            "github.vscode-github-actions"
         ]
     }
 } 
