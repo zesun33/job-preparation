@@ -3,11 +3,20 @@
 Use this whenever you want the AI to teach you a new data-structure, algorithm, or coding problem. Replace the **Topic / Problem** placeholder before sending.
 
 ---
+
 ```
-IMPORTANT: Create two separate files:
-1. A clean .py file in the appropriate week folder with minimal comments and comprehensive test cases in main
+IMPORTANT: Create two separate files and update tracking:
+1. A clean .py file in the appropriate directory:
+   - NeetCode 150 problems: code/neetcode150/weekXX/
+   - Additional practice problems: code/test_problems/weekXX/
+   - Include minimal comments and comprehensive test cases in main()
 2. A detailed .md file in resources/notes/ following the full teaching structure below
-Also update all relevant tracking files (progress_board.md, schedule.md, daily logs, etc.)
+3. Update all relevant tracking files (progress_board.md, schedule.md, daily logs, etc.)
+
+File Organization:
+- NeetCode 150 problems go in code/neetcode150/weekXX/ and count toward the 150 total
+- Test/practice problems go in code/test_problems/weekXX/ and are tracked separately
+- All problems get detailed teaching notes in resources/notes/
 
 I'm learning data structures & algorithms from scratch and my background is not CS, so please explain things slowly and concretely.
 
@@ -54,4 +63,5 @@ Please follow this structure every time I ask about a new concept.
 ```
 
 ---
+
 **Revision workflow:** When you ask "update the prompt," we'll tweak, extend, or clarify this template and overwrite the file so you always have the latest version.
